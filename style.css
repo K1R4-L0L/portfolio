@@ -86,3 +86,13 @@ justify-content: flex-start;
 align-items: center;
 margin-right: 50%;
 }
+.thumbnail {
+
+    display: flex;
+    order: 5;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-right: 50%;
+margin-top: 2%;
+}
