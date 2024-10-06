@@ -5,12 +5,10 @@ html, body {
     background-color: #f97887;
 }
 
-body{
-    display: flex;
 
-}
 
 .navbar {
+    order: 1;
     display: flex;
     width: 100%;
     height: 75px;
@@ -19,6 +17,7 @@ body{
     align-items: center;
 }
 li a{
+   order: 1;
     display: flex;
 color:  #b4eeb4;
 text-decoration: none;
@@ -27,12 +26,63 @@ font-family: cursive;
 padding: 23px 20px;
 }
 ul{
+    order: 1;
     display: flex;
 list-style-type: none;
-margin: 0;
+margin: 0px;
 font-size: 1.3rem;
-padding: 0;
+padding: 0px
 }
 a:hover{
+        display: flex;
     border-bottom:1px solid black;
+}
+.Home {
+  order: 2; 
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: large;
+   color: #34210e;
+   padding: 1cm;
+}
+.Home-image {
+    display: flex;
+    order: 3;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+   width: 20%;
+   height: 20%;
+   margin-left: 40%;
+   margin-top: 5%;
+}
+.project {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50%;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.description {
+    display: flex;
+    order: 3;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(59, 3, 3);
+}
+.links {
+    display: flex;
+    order: 4;
+    flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-right: 50%;
 }
